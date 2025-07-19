@@ -23,13 +23,13 @@ export default function Join() {
         <View style={styles.formGroup}>
           <View>
             <Text style={styles.formLabel}>Email</Text>
-            <TextInput keyboardType="email-address" style={styles.formControl} />
+            <TextInput keyboardType="email-address" style={styles.formControl} placeholder="email@example.com"/>
           </View>
 
           <View>
             <Text style={styles.formLabel}>Password</Text>
             <View style={styles.formPasswordControl}>
-              <TextInput style={styles.passwordControl} secureTextEntry />
+              <TextInput style={styles.passwordControl} secureTextEntry placeholder="*****************" />
               <FontAwesome name="eye-slash" size={24} color="#7E7B7B" />
             </View>
           </View>

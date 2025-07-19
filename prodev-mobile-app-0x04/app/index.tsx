@@ -36,7 +36,7 @@ export default function Index() {
         <View style={mainStyles.buttonGroup}>
           <TouchableOpacity 
           style={mainStyles.buttonPrimary}
-          onPress={() => router.push('/signin')}>
+          onPress={() => router.push('/join')}>
             <Text style={mainStyles.buttonPrimaryText}>Join</Text>
           </TouchableOpacity>
           <TouchableOpacity

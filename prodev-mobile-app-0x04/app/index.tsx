@@ -1,16 +1,14 @@
 import {
   Text,
   View,
-  StyleSheet,
   Image,
   ImageBackground,
-  Dimensions,
   TouchableOpacity,
 } from "react-native";
 import { styles as mainStyles } from '../styles/_mainstyle';
 
 import { useRouter } from 'expo-router';
-import { BACKGROUNIMAGE, HEROLOGO } from "@/constant";
+import { BACKGROUNIMAGE, HEROLOGO } from "@/constants";
 
 export default function Index() {
   const router = useRouter();

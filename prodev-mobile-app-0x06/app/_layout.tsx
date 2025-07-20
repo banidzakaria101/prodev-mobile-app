@@ -10,7 +10,7 @@ export default function RootLayout() {
       <Stack.Screen name="signin" />
 
       {/* Home tab layout */}
-      <Stack.Screen name="(home)" />
+      <Stack.Screen name="(home)/profile.tsx" />
     </Stack>
   );
 }
